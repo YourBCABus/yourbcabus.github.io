@@ -1,0 +1,30 @@
+html, body {
+  width: 100%;
+  height: 100%;
+}
+
+.gradient-background {
+  background-color: #00796B;
+  background-image: linear-gradient(135deg, #00796B, #004C40);
+  color: white;
+}
+
+.hero-header {
+  min-height: 100%;
+}
+
+.overflow-hidden {
+  overflow: hidden !important;
+}
+
+.fill-minus-navbar {
+  height: calc(100% - 66px);
+}
+
+@media (min-width: 768px) {
+  .hero-header {
+    min-height: initial;
+    height: 90%;
+    overflow: hidden;
+  }
+}
