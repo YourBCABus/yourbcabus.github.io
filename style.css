@@ -28,3 +28,12 @@ html, body {
     overflow: hidden;
   }
 }
+
+.dot {
+  width: 1em;
+  height: 1em;
+  border-radius: 50%;
+  background-color: black;
+  display: inline-block;
+  vertical-align: middle;
+}
