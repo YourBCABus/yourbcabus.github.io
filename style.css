@@ -38,6 +38,6 @@ html, body {
   vertical-align: middle;
 }
 
-h1, h2, h3, h4, h5, h6, .navbar-brand {
+h1, h2, h3, h4, h5, h6, .navbar-brand, .h1, .h2, .h3, .h4, .h5, .h6, lead {
   font-family: var(--brand-font);
 }
